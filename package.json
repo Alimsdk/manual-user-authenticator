@@ -1,0 +1,33 @@
+{
+  "name": "fleckspace-server",
+  "version": "1.0.0",
+  "description": "this is the backend of a furniture selling website called \"fleckspace\". The code is written using javascript . Nodejs is used as a runtime environment with express framework and standard folder stracture has been followed",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "keywords": [
+    "fleckspace",
+    "ecommerce",
+    "backend",
+    "server",
+    "nodejs"
+  ],
+  "author": "Alim Siddique",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.1",
+    "mongoose": "^8.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  }
+}
